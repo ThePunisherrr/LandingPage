@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: white;
+	background-position: cover;
+}
+
+.Page{
+	width: 1130px;
+	margin: auto;
+}
+
+header{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("images/BBG2.jpg");
+	height: auto;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+.nav-area{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.nav-area li{
+	display: inline-block;
+}
+
+.nav-area li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 18px;
+	font-family: cursive;
+	font-size: 16px;
+}
+
+.nav-area li a:hover{
+	background: #fff;
+	color: #333;
+}
+
+.logo img{
+	width: 100px;
+	float: left;
+	height: auto;
+}
+
+.Welcome-Text a:hover{
+	background: #fff;
+	color: #333;
+}
+
+.test{
+	padding-top: 100px;
+	padding-left: 50px;
+	padding-right:50px;
+	line-height: 30px;
+	display:block;
+	text-align: justify;
+	border-bottom: 5px dotted;
+	font-family: verdana, sans-serif;
+}
+
+ .video {
+  margin: auto;
+  padding: auto;
+  width: 60%;
+}

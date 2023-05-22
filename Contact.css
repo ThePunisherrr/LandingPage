@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+.Page{
+	width: 1130px;
+	margin: auto;
+}
+
+header{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("images/BBG2.jpg");
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+.nav-area{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.nav-area li{
+	display: inline-block;
+}
+
+.nav-area li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 18px;
+	font-family: cursive;
+	font-size: 16px;
+}
+
+.nav-area li a:hover{
+	background: #fff;
+	color: #333;
+}
+
+.logo img{
+	width: 100px;
+	float: left;
+	height: auto;
+}
+
+.test{
+	padding-top: 140px;
+	padding-left: auto;
+	padding-right: auto;
+	line-height: 25px;
+	display:outline-block;
+	text-align: center;
+	font-family: verdana, sans-serif;
+}
